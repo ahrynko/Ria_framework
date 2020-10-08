@@ -1,0 +1,14 @@
+<story path="stories/VerifyRiaSearchText.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">user</inOrderTo>
+  <asA keyword="I want to">perform an action</asA>
+  <iWantTo keyword="So that">I can achieve a business goal</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Verify user is able to see the  text of the search technique">
+<step outcome="successful">Given user opened site by url: &apos;https://www.ria.com/&apos;</step>
+<step outcome="successful">When search for next text: &apos;Xiomi Redmi&apos;</step>
+<step outcome="successful">Then following search text in input is displayed: &apos;Xiomi Redmi&apos;</step>
+<step outcome="successful">And following search query text is displayed: &apos;Пошуковий запит: &quot;Xiomi Redmi&quot;&apos;</step>
+<step outcome="successful">And products are contains by the specified text: &apos;Xiomi Redmi&apos;</step>
+</scenario>
+</story>

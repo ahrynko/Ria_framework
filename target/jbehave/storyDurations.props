@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Thu Oct 08 03:26:31 EEST 2020
+stories/VerifyRiaSearchText.story=21000
+total=21000
+threadAverage=21000
+threads=1

@@ -1,0 +1,35 @@
+<story path="stories/GoogleVerifications.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">user</inOrderTo>
+  <asA keyword="I want to">perform an action</asA>
+  <iWantTo keyword="So that">I can achieve a business goal</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Verify Google site title and logo">
+<step outcome="pending" keyword="PENDING">Given user opened following url: &apos;https://www.google.com.ua/&apos;</step>
+<step outcome="pending" keyword="PENDING">When user retrieved site title</step>
+<step outcome="pending" keyword="PENDING">Then retrieved title value should be: &apos;Google&apos;</step>
+<step outcome="pending" keyword="PENDING">And Google logo displayed</step>
+<pendingMethod>@Given(&quot;user opened following url: &apos;https://www.google.com.ua/&apos;&quot;)
+@Pending
+public void givenUserOpenedFollowingUrlhttpswwwgooglecomua() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;user retrieved site title&quot;)
+@Pending
+public void whenUserRetrievedSiteTitle() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;retrieved title value should be: &apos;Google&apos;&quot;)
+@Pending
+public void thenRetrievedTitleValueShouldBeGoogle() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;Google logo displayed&quot;)
+@Pending
+public void thenGoogleLogoDisplayed() {
+  // PENDING
+}
+</pendingMethod>

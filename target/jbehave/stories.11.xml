@@ -1,0 +1,12 @@
+<story path="stories/11.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">user</inOrderTo>
+  <asA keyword="I want to">perform an action</asA>
+  <iWantTo keyword="So that">I can achieve a business goal</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Verify user is able to search">
+<step outcome="successful">Given user opened site by url: &apos;https://www.ria.com/&apos;</step>
+<step outcome="successful">When search for next text: &apos;мотоцикл&apos;</step>
+<step outcome="successful">Then following search text in input is displayed: &apos;мотоцикл&apos;</step>
+</scenario>
+</story>
